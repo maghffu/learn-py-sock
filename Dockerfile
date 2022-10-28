@@ -1,7 +1,2 @@
-FROM python:3.9.0-alpine3.12
-
-WORKDIR /app
-
-COPY . .
-
+FROM python:3.8-slim
 CMD ["python" "server.py"]
