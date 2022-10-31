@@ -1,2 +1,3 @@
 FROM python:3.8-slim
-CMD ["python" "server.py"]
+expose 65432
+CMD ['python' 'server.py']
